@@ -1,1 +1,1 @@
-# intelligent-cstr-fault-detector
+# Intelligent-cstr-fault-detector
