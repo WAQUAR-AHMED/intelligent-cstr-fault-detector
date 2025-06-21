@@ -103,6 +103,11 @@ We use **LSTM-based deep neural networks** to capture temporal dependencies in s
 
 > You may also include training/validation loss plots, confusion matrices, and ROC curves.
 
+
+##Confusion Matrix
+![image](https://github.com/user-attachments/assets/48b657b8-d3e9-47ea-bbc7-14246f51a451)
+
+
 ---
 
 ## 📁 Project Structure
