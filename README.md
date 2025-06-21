@@ -30,6 +30,12 @@ The dynamic behavior of a non-isothermal CSTR (single, exothermic reaction \( A 
 \frac{dT}{dt} = \frac{F}{V}(T_{0} - T) + \frac{(-\Delta H)}{\rho C_p} k_0 e^{-\frac{E}{RT}} C_A - \frac{UA}{\rho C_p V}(T - T_c)
 \]
 
+CA
+dt = q
+V (CA0 − CA) − k0e− E
+RT CA
+
+
 Where:
 - \( C_A \): Concentration of A (mol/L)
 - \( T \): Reactor temperature (K)
