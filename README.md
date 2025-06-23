@@ -119,8 +119,8 @@ We use **LSTM-based deep neural networks** to capture temporal dependencies in s
         12.0       0.59      0.23      0.33        43
 
     accuracy                           0.89       572
-    macro avg       0.90      0.89      0.88       572
-    weighted avg       0.90      0.89      0.88       572
+    macro avg      0.90      0.89      0.88       572
+    weighted avg   0.90      0.89      0.88       572
 
 
 > You may also include training/validation loss plots, confusion matrices, and ROC curves.
