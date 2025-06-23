@@ -101,6 +101,28 @@ We use **LSTM-based deep neural networks** to capture temporal dependencies in s
 | Fault 2      | 0.95      | 0.90   | 0.92     |
 | ...          | ...       | ...    | ...      |
 
+
+       precision    recall  f1-score   support
+
+         0.0       0.87      0.91      0.89        43
+         1.0       1.00      0.87      0.93        46
+         2.0       1.00      1.00      1.00        47
+         3.0       1.00      1.00      1.00        35
+         4.0       1.00      1.00      1.00        54
+         5.0       1.00      1.00      1.00        49
+         6.0       0.93      1.00      0.96        41
+         7.0       1.00      1.00      1.00        45
+         8.0       0.59      0.98      0.74        45
+         9.0       1.00      0.85      0.92        48
+        10.0       1.00      0.83      0.91        30
+        11.0       0.70      0.85      0.76        46
+        12.0       0.59      0.23      0.33        43
+
+    accuracy                           0.89       572
+   macro avg       0.90      0.89      0.88       572
+weighted avg       0.90      0.89      0.88       572
+
+
 > You may also include training/validation loss plots, confusion matrices, and ROC curves.
 
 
