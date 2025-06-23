@@ -102,7 +102,7 @@ We use **LSTM-based deep neural networks** to capture temporal dependencies in s
 | ...          | ...       | ...    | ...      |
 
 
-       precision    recall  f1-score   support
+        fault #   precision    recall  f1-score   support
 
          0.0       0.87      0.91      0.89        43
          1.0       1.00      0.87      0.93        46
