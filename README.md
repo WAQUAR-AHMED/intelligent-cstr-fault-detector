@@ -17,38 +17,24 @@ A **Continuous Stirred Tank Reactor (CSTR)** is a vessel used in chemical engine
 ### 🧪 Governing Equations
 
 The dynamic behavior of a non-isothermal CSTR (single, exothermic reaction \( A \rightarrow B \)) can be modeled using the following ordinary differential equations:
+![image](https://github.com/user-attachments/assets/7799259c-586c-484b-9c05-e519d8741431)
 
-**1. Material Balance (for reactant A):**
-
-\[
-\frac{dC_A}{dt} = \frac{F}{V}(C_{A0} - C_A) - k_0 e^{-\frac{E}{RT}} C_A
-\]
-
-**2. Energy Balance:**
-
-\[
-\frac{dT}{dt} = \frac{F}{V}(T_{0} - T) + \frac{(-\Delta H)}{\rho C_p} k_0 e^{-\frac{E}{RT}} C_A - \frac{UA}{\rho C_p V}(T - T_c)
-\]
-
-CA
-dt = q
-V (CA0 − CA) − k0e− E
-RT CA
 
 
 Where:
-- \( C_A \): Concentration of A (mol/L)
-- \( T \): Reactor temperature (K)
-- \( T_c \): Coolant temperature (K)
-- \( F \): Inlet flow rate (L/min)
-- \( V \): Reactor volume (L)
-- \( k_0 \): Pre-exponential factor (1/min)
-- \( E \): Activation energy (J/mol)
-- \( R \): Gas constant (8.314 J/mol·K)
-- \( \Delta H \): Heat of reaction (J/mol)
-- \( \rho \), \( C_p \): Density and specific heat of fluid
-- \( UA \): Heat transfer coefficient × area
-
+• CA: Concentration of species A in reactor (mol/L)
+• T : Reactor temperature (K)
+• CA0: Inlet concentration of A (mol/L)
+• T0: Inlet temperature (K)
+• Tc: Coolant temperature (K)
+• q: Inlet volumetric flow rate (L/min)
+• V : Reactor volume (L)
+• k0: Pre-exponential factor (1/min)
+• E: Activation energy (J/mol)
+• R: Gas constant (8.314 J/mol·K)
+• ∆H: Heat of reaction (J/mol)
+• U : Heat transfer coefficient (J/min·m2·K)
+• A: Heat transfer area (m2)
 ---
 
 ## 🛠️ Project Overview
