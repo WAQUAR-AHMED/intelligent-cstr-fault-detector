@@ -21,7 +21,7 @@ The dynamic behavior of a non-isothermal CSTR (single, exothermic reaction \( A 
 
 
 
-Where:
+**********************Where:
 • CA: Concentration of species A in reactor (mol/L)
 • T : Reactor temperature (K)
 • CA0: Inlet concentration of A (mol/L)
@@ -33,9 +33,9 @@ Where:
 • E: Activation energy (J/mol)
 • R: Gas constant (8.314 J/mol·K)
 • ∆H: Heat of reaction (J/mol)
-• U : Heat transfer coefficient (J/min·m2·K)
-• A: Heat transfer area (m2)
----
+-• U : Heat transfer coefficient (J/min·m2·K)
+-• A: Heat transfer area (m2)
+---******
 
 ## 🛠️ Project Overview
 
