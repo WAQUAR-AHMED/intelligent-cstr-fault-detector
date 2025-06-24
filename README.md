@@ -67,13 +67,7 @@ Where:
 ## ⚠️ Types of Faults Detected
 
 Each fault represents an abnormal operating condition such as:
-
-- **Fault 1**: Sudden change in inlet temperature
-- **Fault 2**: Valve failure affecting coolant flow rate
-- **Fault 3**: Sensor drift in reactor temperature
-- **Fault 4**: Heat exchanger fouling (UA drop)
-- **Fault 5**: Catalyst deactivation (drop in \( k_0 \))
-- **Normal**: Stable operation with expected input/output
+![image](https://github.com/user-attachments/assets/76f3b078-66b4-4e5a-8d57-87ca6d38fde1)
 
 *Note: Faults vary depending on simulation settings from the dataset.*
 
